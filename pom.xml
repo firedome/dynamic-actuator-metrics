@@ -4,6 +4,32 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
+    <name>Dynamic actuator metrics</name>
+    <description>Helper classes to dynamically create metrics with tags for Spring Boot 2.0 applications</description>
+    <url>https://github.com/firedome/dynamic-actuator-metrics</url>
+
+    <licenses>
+        <license>
+            <name>MIT License</name>
+            <url>http://www.opensource.org/licenses/mit-license.php</url>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <name>Hana Giat</name>
+            <email>hana.giat@firedome.io</email>
+            <organization>Firedome</organization>
+            <organizationUrl>https://firedome.io</organizationUrl>
+        </developer>
+    </developers>
+
+    <scm>
+        <connection>scm:git:git://github.com/firedome/dynamic-actuator-metrics.git</connection>
+        <developerConnection>scm:git:ssh://github.com:firedome/dynamic-actuator-metrics.git</developerConnection>
+        <url>https://github.com/firedome/dynamic-actuator-metrics</url>
+    </scm>
+
     <groupId>io.firedome</groupId>
     <artifactId>dynamic-metrics</artifactId>
     <version>1.0-SNAPSHOT</version>
